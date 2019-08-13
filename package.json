@@ -50,8 +50,10 @@
     "babel-jest": "^23.0.1",
     "babel-loader": "^7.1.4",
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-block-scoping": "^6.26.0",
     "babel-plugin-transform-es2015-classes": "^6.24.1",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-plugin-transform-es2015-parameters": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-shopify": "^16.5.0",
     "codecov": "^3.0.2",
@@ -74,6 +76,8 @@
   },
   "babel": {
     "plugins": [
+      "transform-es2015-block-scoping",
+      "transform-es2015-parameters",
       "transform-class-properties",
       "transform-object-rest-spread",
       "transform-es2015-modules-commonjs"
